@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100&family=Inter:wght@100;200;300;400;500&family=Lato&family=Lobster&family=Manrope:wght@200;300;400;500;600;700&family=Noto+Sans+Linear+B&family=Noto+Sans+Pau+Cin+Hau&family=Noto+Serif+Telugu:wght@900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@500&family=Oswald:wght@200&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100&family=Sora:wght@100;200;300;400;500;600;700;800&family=Space+Grotesk:wght@300..700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+
+:root {
+  font-family: "Work Sans", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  /* 
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  /* background-color: #242424; 
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  color: white;
+}
+
+.intro {
+  max-width: 700px;
+  margin: auto;
+  margin-top: 4rem;
+}
+.intro-heading {
+  text-align: center;
+  padding: 1rem;
+}
+.intro-subheading {
+  text-align: center;
+  padding: 0.4rem;
+}
+.main {
+  margin: auto;
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url("/background.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+.container {
+}
+.download-btns {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 3rem;
+}
+.download-btn {
+  border: 1px solid #030f10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.download-btn:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.android-logo {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #030f10;
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+@media (max-width: 450px) {
+  :root {
+    font-size: 14px;
+  }
+}
